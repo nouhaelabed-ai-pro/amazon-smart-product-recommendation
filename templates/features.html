@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block title %}Features - Smart Product Recommender{% endblock %}
+
+{% block content %}
+<section class="features-section">
+    <div class="container">
+        <h1 class="text-center mb-5">Platform Features</h1>
+
+        <!-- Smart Search -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <h2>Smart Search Engine</h2>
+                <p class="lead">Our advanced search functionality uses TF-IDF vectorization to understand the context of your search and provide relevant results.</p>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-check text-success me-2"></i> Natural language processing for better understanding</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Context-aware search results</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Fast and efficient search algorithm</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="card feature-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-search fa-5x mb-3 text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Intelligent Recommendations -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6 order-md-2">
+                <h2>Intelligent Recommendations</h2>
+                <p class="lead">Get personalized product recommendations based on content similarity and user preferences.</p>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-check text-success me-2"></i> Content-based filtering</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Cosine similarity matching</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Personalized suggestions</li>
+                </ul>
+            </div>
+            <div class="col-md-6 order-md-1">
+                <div class="card feature-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-brain fa-5x mb-3 text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Real-time Updates -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <h2>Real-time Updates</h2>
+                <p class="lead">Stay informed with instant updates on product information and recommendations.</p>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-check text-success me-2"></i> Live price tracking</li>
+                    <li><i class="fas fa-check text-success me-2"></i> Rating updates</li>
+                    <li><i class="fas fa-check text-success me-2"></i> New product alerts</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div class="card feature-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-clock fa-5x mb-3 text-primary"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Additional Features -->
+        <h2 class="text-center mb-4">Additional Features</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-mobile-alt fa-3x mb-3 text-primary"></i>
+                        <h5 class="card-title">Responsive Design</h5>
+                        <p class="card-text">Access our platform seamlessly across all devices with our mobile-friendly interface.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-tachometer-alt fa-3x mb-3 text-primary"></i>
+                        <h5 class="card-title">Performance Optimized</h5>
+                        <p class="card-text">Experience fast loading times and smooth interactions throughout the platform.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-shield-alt fa-3x mb-3 text-primary"></i>
+                        <h5 class="card-title">Secure Platform</h5>
+                        <p class="card-text">Your data is protected with our secure infrastructure and best practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

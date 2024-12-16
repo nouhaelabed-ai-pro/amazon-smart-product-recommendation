@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block title %}About - Smart Product Recommender{% endblock %}
+
+{% block content %}
+<section class="about-section">
+    <div class="container">
+        <h1 class="text-center mb-5">About Smart Product Recommender</h1>
+        
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <h2>Our Mission</h2>
+                <p class="lead">To provide intelligent product recommendations powered by advanced machine learning algorithms, helping users discover the perfect products that match their needs and preferences.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="{{ url_for('static', filename='images/about-mission.jpg') }}" alt="Our Mission" class="img-fluid rounded">
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-lg-12">
+                <h2 class="mb-4">About Our Dataset</h2>
+                <p>Our recommendation system is powered by a comprehensive dataset of over 1,000 Amazon products, including detailed information about:</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <i class="fas fa-tag me-2"></i>
+                                Product names, categories, and descriptions
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fas fa-dollar-sign me-2"></i>
+                                Pricing information (actual and discounted prices)
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fas fa-percent me-2"></i>
+                                Discount percentages
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <i class="fas fa-star me-2"></i>
+                                Product ratings and review counts
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fas fa-comments me-2"></i>
+                                User reviews and feedback
+                            </li>
+                            <li class="list-group-item">
+                                <i class="fas fa-image me-2"></i>
+                                Product images and links
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-lg-12">
+                <h2 class="mb-4">Technologies Used</h2>
+                <div class="row text-center">
+                    <div class="col-md-3 mb-4">
+                        <div class="card feature-card h-100">
+                            <div class="card-body">
+                                <i class="fab fa-python fa-3x mb-3 text-primary"></i>
+                                <h5>Backend</h5>
+                                <p>Python, Flask</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card feature-card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-brain fa-3x mb-3 text-primary"></i>
+                                <h5>ML & NLP</h5>
+                                <p>scikit-learn, NLTK</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card feature-card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-database fa-3x mb-3 text-primary"></i>
+                                <h5>Data Processing</h5>
+                                <p>Pandas, NumPy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card feature-card h-100">
+                            <div class="card-body">
+                                <i class="fab fa-bootstrap fa-3x mb-3 text-primary"></i>
+                                <h5>Frontend</h5>
+                                <p>Bootstrap 5, Font Awesome</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

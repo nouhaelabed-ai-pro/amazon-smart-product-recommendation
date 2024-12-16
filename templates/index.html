@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+
+{% block title %}Smart Product Recommender - Home{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero mb-5">
+    <div class="container">
+        <h1 class="display-4 mb-4">Smart Product Recommender</h1>
+        <p class="lead mb-4">Discover the perfect products with our AI-powered recommendation system</p>
+        <div class="search-container bg-white p-4 rounded shadow">
+            <input type="text" id="searchInput" class="form-control form-control-lg" 
+                   placeholder="Search for products...">
+            <div id="searchResults" class="search-results d-none">
+                <!-- Search results will be populated here -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products Section -->
+<section class="featured-products mb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <div class="row" id="featuredProducts">
+            {% for product in popular_products %}
+            <div class="col-md-4 mb-4">
+                <div class="card product-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.product_name[:50] }}...</h5>
+                        <p class="card-text">{{ product.category.split('|')[0] }}</p>
+                        <div class="product-details">
+                            <div class="price">₹{{ "%.2f"|format(product.discounted_price) }}</div>
+                            <div class="rating">
+                                {% for _ in range(product.rating|int) %}
+                                <i class="fas fa-star"></i>
+                                {% endfor %}
+                                {% if product.rating % 1 >= 0.5 %}
+                                <i class="fas fa-star-half-alt"></i>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-2 w-100 get-recommendations" 
+                                data-product-id="{{ product.product_id }}">
+                            Get Recommendations
+                        </button>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- About Preview Section -->
+<section class="about-preview bg-light py-5 mb-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>About Our Platform</h2>
+                <p class="lead">Discover how our AI-powered recommendation system helps you find the perfect products.</p>
+                <a href="{{ url_for('about') }}" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <i class="fas fa-robot fa-5x text-primary"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Preview Section -->
+<section class="features-preview mb-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Key Features</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-search fa-3x mb-3 text-primary"></i>
+                        <h5>Smart Search</h5>
+                        <p>Find products quickly with our intelligent search system</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-brain fa-3x mb-3 text-primary"></i>
+                        <h5>AI Recommendations</h5>
+                        <p>Get personalized product suggestions</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card feature-card h-100">
+                    <div class="card-body text-center">
+                        <i class="fas fa-chart-line fa-3x mb-3 text-primary"></i>
+                        <h5>Real-time Updates</h5>
+                        <p>Stay informed with latest product information</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-4">
+            <a href="{{ url_for('features') }}" class="btn btn-primary">View All Features</a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Preview Section -->
+<section class="contact-preview bg-light py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <i class="fas fa-comments fa-5x text-primary"></i>
+            </div>
+            <div class="col-md-6">
+                <h2>Get in Touch</h2>
+                <p class="lead">Have questions? We're here to help!</p>
+                <a href="{{ url_for('contact') }}" class="btn btn-primary">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Recommendations Modal -->
+<div class="modal fade" id="recommendationsModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Similar Products</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div id="recommendationsList">
+                    <!-- Recommendations will be populated here -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+{% endblock %}

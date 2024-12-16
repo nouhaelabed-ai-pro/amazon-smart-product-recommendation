@@ -1,0 +1,251 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-section bg-dark text-white py-5 mb-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="display-4 mb-3">AI-Powered Product Recommendations</h1>
+                <p class="lead mb-4">Experience the power of machine learning with our advanced Amazon product recommendation engine. Using TF-IDF and cosine similarity to deliver personalized product suggestions.</p>
+                <div class="search-container mb-4">
+                    <div class="input-group">
+                        <input type="text" id="searchInput" class="form-control form-control-lg" placeholder="Search for products...">
+                        <button class="btn btn-warning" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <div id="searchResults" class="search-results-container d-none"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="tech-stack-badges text-center">
+                    <span class="badge bg-primary m-1">Python</span>
+                    <span class="badge bg-success m-1">Flask</span>
+                    <span class="badge bg-info m-1">scikit-learn</span>
+                    <span class="badge bg-warning m-1">NLTK</span>
+                    <span class="badge bg-danger m-1">Pandas</span>
+                    <span class="badge bg-secondary m-1">NumPy</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mb-5">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="text-center mb-3">
+                        <i class="fas fa-brain fa-3x text-primary"></i>
+                    </div>
+                    <h3 class="card-title text-center">ML Algorithm</h3>
+                    <p class="card-text">Our recommendation system uses TF-IDF vectorization and cosine similarity to analyze product descriptions and find similar items based on content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="text-center mb-3">
+                        <i class="fas fa-chart-line fa-3x text-success"></i>
+                    </div>
+                    <h3 class="card-title text-center">Performance</h3>
+                    <p class="card-text">Fast and efficient recommendations with response times under 100ms, handling a dataset of over 100k Amazon products.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="text-center mb-3">
+                        <i class="fas fa-cogs fa-3x text-warning"></i>
+                    </div>
+                    <h3 class="card-title text-center">Features</h3>
+                    <p class="card-text">Real-time search, content-based filtering, and similarity scoring to provide accurate and relevant product recommendations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mb-5">
+    <h2 class="text-center mb-4">How It Works</h2>
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <div class="step-card text-center">
+                <div class="step-number">1</div>
+                <h4>Data Processing</h4>
+                <p>Product descriptions are processed using NLTK for text cleaning and tokenization.</p>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="step-card text-center">
+                <div class="step-number">2</div>
+                <h4>TF-IDF Vectorization</h4>
+                <p>Text data is converted into numerical vectors using TF-IDF.</p>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="step-card text-center">
+                <div class="step-number">3</div>
+                <h4>Similarity Calculation</h4>
+                <p>Cosine similarity is used to find products with similar features.</p>
+            </div>
+        </div>
+        <div class="col-md-3 mb-4">
+            <div class="step-card text-center">
+                <div class="step-number">4</div>
+                <h4>Ranking</h4>
+                <p>Products are ranked by similarity score and filtered for relevance.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mb-5">
+    <h2 class="text-center mb-4">Featured Products</h2>
+    <div class="row" id="featuredProducts">
+        {% for product in featured_products %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.product_name }}</h5>
+                    <p class="card-text text-muted">{{ product.category.split('|')[0] }}</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="price">₹{{ "%.2f"|format(product.discounted_price) }}</div>
+                        <div class="rating">
+                            {% for _ in range(product.rating|int) %}
+                            <i class="fas fa-star text-warning"></i>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <button class="btn btn-primary mt-3 get-recommendations" data-product-id="{{ product.product_id }}">
+                        Get Similar Products
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Recommendations Modal -->
+<div class="modal fade" id="recommendationsModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Similar Products</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div id="recommendationsList"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_css %}
+<style>
+.hero-section {
+    background: linear-gradient(135deg, #232F3E 0%, #131921 100%);
+    border-radius: 0 0 2rem 2rem;
+}
+
+.search-container {
+    position: relative;
+    max-width: 600px;
+}
+
+.search-results-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.search-result-item {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.search-result-item:hover {
+    background-color: #f8f9fa;
+}
+
+.tech-stack-badges {
+    margin-top: 2rem;
+}
+
+.tech-stack-badges .badge {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.step-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.step-number {
+    width: 40px;
+    height: 40px;
+    background: #FF9900;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 auto 1rem;
+}
+
+.card {
+    transition: transform 0.2s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #232F3E;
+}
+
+.rating {
+    color: #FF9900;
+}
+
+.modal-content {
+    border-radius: 1rem;
+}
+
+.modal-header {
+    background: #232F3E;
+    color: white;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+</style>
+{% endblock %}

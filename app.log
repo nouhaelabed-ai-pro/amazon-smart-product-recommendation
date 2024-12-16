@@ -1,0 +1,513 @@
+2024-12-16 11:11:48,927 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:11:49,017 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:11:49,141 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:11:49,213 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:11:51,557 - __main__ - INFO - Text data cleaning completed in 0:00:02.540563
+2024-12-16 11:11:51,767 - __main__ - INFO - Text data cleaning completed in 0:00:02.554029
+2024-12-16 11:11:51,827 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:11:51,845 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:11:51,850 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:11:52,045 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:11:52,059 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:11:52,061 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:25:32,277 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:25:32,357 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:25:33,861 - __main__ - INFO - Text data cleaning completed in 0:00:01.503892
+2024-12-16 11:25:34,101 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:25:34,126 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 11:25:34,127 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 11:25:34,127 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:25:35,227 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:25:35,295 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:25:36,737 - __main__ - INFO - Text data cleaning completed in 0:00:01.442404
+2024-12-16 11:25:36,961 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:25:36,974 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:25:36,977 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:34:31,240 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:34:31,602 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:34:31,627 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:34:31,628 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:34:32,895 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:34:32,977 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:34:33,251 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:34:33,275 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:34:33,338 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:34:33,368 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:34:34,659 - __main__ - INFO - Text data cleaning completed in 0:00:01.681597
+2024-12-16 11:34:34,896 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:34:34,906 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:34:34,908 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:34:34,967 - __main__ - INFO - Text data cleaning completed in 0:00:01.629710
+2024-12-16 11:34:35,045 - __main__ - INFO - Text data cleaning completed in 0:00:01.677314
+2024-12-16 11:34:35,227 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:34:35,240 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:34:35,243 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:34:35,284 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:34:35,296 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:34:35,299 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:36:37,261 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:36:37,345 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:36:38,751 - __main__ - INFO - Text data cleaning completed in 0:00:01.406175
+2024-12-16 11:36:38,982 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:36:38,999 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 11:36:38,999 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 11:36:39,001 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:36:40,097 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:36:40,166 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:36:41,609 - __main__ - INFO - Text data cleaning completed in 0:00:01.443092
+2024-12-16 11:36:41,876 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:36:41,887 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:36:41,890 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:37:54,880 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:37:55,167 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:37:55,169 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:37:55,261 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:37:55,674 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:37:56,031 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:37:56,572 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:37:56,648 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:37:56,845 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:37:56,861 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:37:56,930 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:37:56,951 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:37:57,240 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:37:57,324 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:37:58,345 - __main__ - INFO - Text data cleaning completed in 0:00:01.696748
+2024-12-16 11:37:58,591 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:37:58,602 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:37:58,604 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:37:58,627 - __main__ - INFO - Text data cleaning completed in 0:00:01.697327
+2024-12-16 11:37:58,666 - __main__ - INFO - Text data cleaning completed in 0:00:01.714524
+2024-12-16 11:37:58,878 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:37:58,888 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:37:58,891 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:37:58,916 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:37:58,924 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:37:58,927 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:37:58,961 - __main__ - INFO - Text data cleaning completed in 0:00:01.637531
+2024-12-16 11:37:59,195 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:37:59,206 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:37:59,209 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:38:03,245 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:38:03,317 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:38:04,740 - __main__ - INFO - Text data cleaning completed in 0:00:01.423498
+2024-12-16 11:38:04,981 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:38:05,000 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 11:38:05,000 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 11:38:05,001 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:38:06,124 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:38:06,199 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:38:07,701 - __main__ - INFO - Text data cleaning completed in 0:00:01.502223
+2024-12-16 11:38:07,951 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:38:07,963 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:38:07,966 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:43:33,277 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:43:33,351 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:43:34,740 - __main__ - INFO - Text data cleaning completed in 0:00:01.389015
+2024-12-16 11:43:34,990 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:43:35,008 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 11:43:35,008 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 11:43:35,008 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:43:36,101 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:43:36,177 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:43:37,757 - __main__ - INFO - Text data cleaning completed in 0:00:01.579350
+2024-12-16 11:43:38,045 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:43:38,054 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:43:38,057 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:45:19,177 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:45:19,248 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:45:20,609 - __main__ - INFO - Text data cleaning completed in 0:00:01.360918
+2024-12-16 11:45:20,844 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:45:20,860 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 11:45:20,860 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 11:45:20,861 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:45:21,940 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:45:22,002 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:45:23,458 - __main__ - INFO - Text data cleaning completed in 0:00:01.455827
+2024-12-16 11:45:23,699 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:45:23,708 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:45:23,711 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:47:31,246 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:47:31,328 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:47:32,802 - __main__ - INFO - Text data cleaning completed in 0:00:01.473355
+2024-12-16 11:47:33,066 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:47:33,083 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 11:47:33,083 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 11:47:33,085 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:47:34,285 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:47:34,359 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:47:35,800 - __main__ - INFO - Text data cleaning completed in 0:00:01.441447
+2024-12-16 11:47:36,045 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:47:36,054 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:47:36,055 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:48:18,009 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:48:18,085 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:48:19,590 - __main__ - INFO - Text data cleaning completed in 0:00:01.505202
+2024-12-16 11:48:19,840 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:48:19,860 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 11:48:19,860 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 11:48:19,862 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:48:42,915 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:48:43,326 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:48:56,240 - __main__ - INFO - Text data cleaning completed in 0:00:12.913338
+2024-12-16 11:48:57,506 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:48:57,561 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:48:57,585 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:57:23,329 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:57:23,677 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:57:23,957 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:57:23,959 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:57:23,960 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:57:23,961 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:57:23,961 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:57:23,963 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:57:23,964 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:57:23,964 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 11:57:24,631 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:57:24,637 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:57:24,640 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:57:24,644 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:57:24,644 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:57:24,647 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:57:25,235 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:57:25,328 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:57:26,131 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:57:26,142 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:57:26,194 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:57:26,197 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:57:26,199 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:57:26,201 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:57:26,206 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:57:26,210 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:57:26,214 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:57:26,240 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:57:26,282 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:57:26,300 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:57:26,305 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:57:26,306 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:57:26,310 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:57:26,318 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:57:27,587 - __main__ - INFO - Text data cleaning completed in 0:00:02.258802
+2024-12-16 11:57:27,882 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:57:27,899 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:57:27,902 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:57:28,413 - __main__ - INFO - Text data cleaning completed in 0:00:02.199075
+2024-12-16 11:57:28,572 - __main__ - INFO - Text data cleaning completed in 0:00:02.331683
+2024-12-16 11:57:28,598 - __main__ - INFO - Text data cleaning completed in 0:00:02.293055
+2024-12-16 11:57:28,614 - __main__ - INFO - Text data cleaning completed in 0:00:02.295734
+2024-12-16 11:57:28,615 - __main__ - INFO - Text data cleaning completed in 0:00:02.314755
+2024-12-16 11:57:28,622 - __main__ - INFO - Text data cleaning completed in 0:00:02.339209
+2024-12-16 11:57:28,627 - __main__ - INFO - Text data cleaning completed in 0:00:02.321394
+2024-12-16 11:57:28,646 - __main__ - INFO - Text data cleaning completed in 0:00:02.335929
+2024-12-16 11:57:28,717 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:57:28,728 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:57:28,731 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:57:28,940 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:57:28,951 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:57:28,959 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:57:28,964 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:57:28,966 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:57:28,966 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:57:28,969 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:57:28,976 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:57:28,982 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:57:28,986 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:57:28,996 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:57:28,998 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:57:29,016 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:57:29,020 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:57:29,026 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:57:29,028 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:57:29,028 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:57:29,029 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:57:29,032 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:57:29,037 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:57:29,039 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 11:58:59,704 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:58:59,777 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:59:02,310 - __main__ - INFO - Text data cleaning completed in 0:00:02.533051
+2024-12-16 11:59:02,558 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:59:02,579 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 11:59:02,579 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 11:59:02,581 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 11:59:03,800 - __main__ - INFO - Loading and preprocessing data
+2024-12-16 11:59:03,866 - __main__ - INFO - Starting text data cleaning
+2024-12-16 11:59:06,227 - __main__ - INFO - Text data cleaning completed in 0:00:02.361061
+2024-12-16 11:59:06,454 - __main__ - INFO - Data loading and preprocessing completed successfully
+2024-12-16 11:59:06,471 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 11:59:06,474 - werkzeug - INFO -  * Debugger PIN: 320-860-302
+2024-12-16 12:01:15,880 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:01:15,881 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:01:15,884 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:01:15,886 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:01:15,887 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:01:15,888 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:01:15,889 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:01:15,960 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:01:16,576 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:01:16,578 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:01:16,578 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:01:16,580 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:01:16,588 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:01:16,658 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:01:16,659 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:01:16,709 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:01:17,277 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:01:17,286 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:01:18,419 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:18,419 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:18,433 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:18,436 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:18,436 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:18,448 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:18,464 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:18,537 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:18,538 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:18,540 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:18,540 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:18,545 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:18,545 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:18,549 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:18,549 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:18,553 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:18,553 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:18,572 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:18,572 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:18,576 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:18,576 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:18,705 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:18,823 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:18,823 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:18,933 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:18,992 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:19,043 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:19,043 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:19,076 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:19,076 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:21,395 - __main__ - INFO - Text data cleaning completed in 0:00:02.846489
+2024-12-16 12:01:21,395 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:21,446 - __main__ - INFO - Text data cleaning completed in 0:00:02.905379
+2024-12-16 12:01:21,448 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:21,466 - __main__ - INFO - Text data cleaning completed in 0:00:02.894403
+2024-12-16 12:01:21,466 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:21,479 - __main__ - INFO - Text data cleaning completed in 0:00:02.903073
+2024-12-16 12:01:21,479 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:21,485 - __main__ - INFO - Text data cleaning completed in 0:00:02.932461
+2024-12-16 12:01:21,486 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:21,488 - __main__ - INFO - Text data cleaning completed in 0:00:02.949417
+2024-12-16 12:01:21,488 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:21,500 - __main__ - INFO - Text data cleaning completed in 0:00:02.955293
+2024-12-16 12:01:21,500 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:21,756 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:21,811 - __main__ - INFO - Text data cleaning completed in 0:00:02.768220
+2024-12-16 12:01:21,811 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:21,828 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:21,843 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:21,845 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:21,849 - __main__ - INFO - Text data cleaning completed in 0:00:02.772370
+2024-12-16 12:01:21,849 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:21,860 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:21,868 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:01:21,872 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:21,887 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:21,896 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:21,906 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:21,917 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:21,922 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:21,931 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:21,935 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:21,939 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:01:21,940 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:01:21,961 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:21,973 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:21,974 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:21,974 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:21,978 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:01:21,985 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:21,987 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:21,989 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:01:21,992 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:21,995 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:01:22,006 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:22,008 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:01:22,116 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:22,136 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:22,172 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:22,181 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:22,184 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:01:22,195 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:22,203 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:22,207 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:01:22,547 - __main__ - INFO - Text data cleaning completed in 0:00:03.723383
+2024-12-16 12:01:22,547 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:22,758 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:22,801 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:22,809 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:22,811 - werkzeug - INFO -  * Debugger PIN: 320-860-302
+2024-12-16 12:01:24,873 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:24,947 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:24,947 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:26,440 - __main__ - INFO - Text data cleaning completed in 0:00:01.492932
+2024-12-16 12:01:26,440 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:26,635 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:26,685 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:26,702 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 12:01:26,702 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 12:01:26,705 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:01:27,908 - __main__ - INFO - Loading dataset...
+2024-12-16 12:01:27,982 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:01:27,982 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:01:29,548 - __main__ - INFO - Text data cleaning completed in 0:00:01.565410
+2024-12-16 12:01:29,548 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:01:29,755 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:01:29,803 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:01:29,816 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:01:29,822 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:15,967 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:15,968 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:15,969 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:15,969 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:15,970 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:15,970 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:16,100 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:16,101 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:16,191 - werkzeug - INFO -  * Detected change in 'C:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:16,637 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:16,639 - werkzeug - INFO -  * Detected change in 'c:\\Users\\nouha\\CascadeProjects\\amazon-sales\\app.py', reloading
+2024-12-16 12:04:16,710 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:04:16,717 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:04:16,720 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:04:16,722 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:04:16,723 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:04:16,844 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:04:16,855 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:04:16,965 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:04:17,192 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:04:18,422 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,426 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,429 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,433 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,448 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,456 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,491 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,508 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:18,508 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:18,548 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:18,548 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:18,553 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:18,553 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:18,559 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:18,560 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:18,560 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:18,560 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:18,569 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:18,569 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:18,594 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:18,594 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:18,631 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,766 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:18,766 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:18,840 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,857 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,916 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:18,956 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:18,965 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:18,975 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:18,975 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:19,035 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:19,035 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:21,432 - __main__ - INFO - Text data cleaning completed in 0:00:02.917805
+2024-12-16 12:04:21,432 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:21,523 - __main__ - INFO - Text data cleaning completed in 0:00:02.962852
+2024-12-16 12:04:21,523 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:21,540 - __main__ - INFO - Text data cleaning completed in 0:00:02.987134
+2024-12-16 12:04:21,540 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:21,566 - __main__ - INFO - Text data cleaning completed in 0:00:03.018322
+2024-12-16 12:04:21,567 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:21,567 - __main__ - INFO - Text data cleaning completed in 0:00:03.007010
+2024-12-16 12:04:21,567 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:21,626 - __main__ - INFO - Text data cleaning completed in 0:00:03.057013
+2024-12-16 12:04:21,626 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:21,653 - __main__ - INFO - Text data cleaning completed in 0:00:03.059071
+2024-12-16 12:04:21,653 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:21,701 - __main__ - INFO - Text data cleaning completed in 0:00:02.933019
+2024-12-16 12:04:21,701 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:21,795 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:21,873 - __main__ - INFO - Text data cleaning completed in 0:00:02.907485
+2024-12-16 12:04:21,873 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:21,890 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:21,903 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:21,910 - __main__ - INFO - Text data cleaning completed in 0:00:02.934567
+2024-12-16 12:04:21,910 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:21,917 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:21,951 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:21,973 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:21,981 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:21,992 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:22,038 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:22,048 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:22,052 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:22,055 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:22,059 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:22,068 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:22,073 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:22,080 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:22,082 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:22,083 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:22,088 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:22,096 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:22,097 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:22,101 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:22,102 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:22,129 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:22,138 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:22,142 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:22,172 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:22,174 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:22,180 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:22,183 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:22,184 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:22,186 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:22,235 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:22,262 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:22,301 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:22,311 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:22,314 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:22,318 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:22,327 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:22,330 - werkzeug - INFO -  * Debugger PIN: 120-885-051
+2024-12-16 12:04:22,773 - __main__ - INFO - Text data cleaning completed in 0:00:03.738255
+2024-12-16 12:04:22,773 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:22,955 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:23,001 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:23,005 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:23,012 - werkzeug - INFO -  * Debugger PIN: 320-860-302
+2024-12-16 12:04:45,002 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:45,066 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:45,066 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:47,390 - __main__ - INFO - Text data cleaning completed in 0:00:02.323613
+2024-12-16 12:04:47,390 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:47,581 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:47,627 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:47,640 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-16 12:04:47,640 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-16 12:04:47,645 - werkzeug - INFO -  * Restarting with stat
+2024-12-16 12:04:48,890 - __main__ - INFO - Loading dataset...
+2024-12-16 12:04:48,953 - __main__ - INFO - Cleaning text data...
+2024-12-16 12:04:48,953 - __main__ - INFO - Starting text data cleaning
+2024-12-16 12:04:51,377 - __main__ - INFO - Text data cleaning completed in 0:00:02.423876
+2024-12-16 12:04:51,377 - __main__ - INFO - Creating TF-IDF matrix...
+2024-12-16 12:04:51,552 - __main__ - INFO - Calculating similarity matrix...
+2024-12-16 12:04:51,601 - __main__ - INFO - Recommendation system initialized successfully
+2024-12-16 12:04:51,611 - werkzeug - WARNING -  * Debugger is active!
+2024-12-16 12:04:51,613 - werkzeug - INFO -  * Debugger PIN: 320-860-302

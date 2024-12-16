@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container py-5">
+    <h1 class="text-center mb-5">Product Recommendations</h1>
+    
+    <div class="row" id="featuredProducts">
+        {% for product in featured_products %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.product_name }}</h5>
+                    <p class="card-text text-muted">{{ product.category.split('|')[0] }}</p>
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <div class="price">₹{{ "%.2f"|format(product.discounted_price) }}</div>
+                        <div class="rating">
+                            {% for _ in range(product.rating|int) %}
+                            <i class="fas fa-star text-warning"></i>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    <button class="btn btn-primary w-100 get-recommendations" data-product-id="{{ product.product_id }}">
+                        Get Similar Products
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Recommendations Modal -->
+<div class="modal fade" id="recommendationsModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Similar Products</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div id="recommendationsList"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_css %}
+<style>
+.card {
+    transition: transform 0.2s;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #232F3E;
+}
+
+.rating {
+    color: #FF9900;
+}
+
+.modal-content {
+    border-radius: 1rem;
+}
+
+.modal-header {
+    background: #232F3E;
+    color: white;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const recommendationsModal = document.getElementById('recommendationsModal');
+    const modal = new bootstrap.Modal(recommendationsModal);
+
+    // Get recommendations functionality
+    document.querySelectorAll('.get-recommendations').forEach(button => {
+        button.addEventListener('click', function() {
+            const productId = this.getAttribute('data-product-id');
+            const recommendationsList = document.getElementById('recommendationsList');
+            
+            // Show loading state in modal
+            recommendationsList.innerHTML = '<div class="text-center"><i class="fas fa-spinner fa-spin fa-2x"></i><p class="mt-2">Loading recommendations...</p></div>';
+            modal.show();
+
+            fetch(`/api/similar-products/${productId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        throw new Error(data.error);
+                    }
+                    displayRecommendations(data);
+                })
+                .catch(error => {
+                    console.error('Recommendations error:', error);
+                    recommendationsList.innerHTML = `
+                        <div class="alert alert-danger">
+                            <i class="fas fa-exclamation-circle me-2"></i>
+                            Error loading recommendations
+                        </div>
+                    `;
+                });
+        });
+    });
+
+    function displayRecommendations(products) {
+        const recommendationsList = document.getElementById('recommendationsList');
+        
+        if (!Array.isArray(products)) {
+            recommendationsList.innerHTML = '<div class="alert alert-danger">Invalid recommendations data</div>';
+            return;
+        }
+
+        if (products.length === 0) {
+            recommendationsList.innerHTML = '<div class="alert alert-info">No similar products found</div>';
+            return;
+        }
+
+        recommendationsList.innerHTML = `
+            <div class="row">
+                ${products.map(product => `
+                    <div class="col-md-6 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h6 class="card-title">${product['Product Name']}</h6>
+                                <p class="card-text small text-muted">${product.Category}</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="price">₹${product.Price.toFixed(2)}</div>
+                                    <div class="rating text-warning">
+                                        ${Array(Math.round(product.Rating)).fill('').map(() => '<i class="fas fa-star"></i>').join('')}
+                                    </div>
+                                </div>
+                                <div class="mt-2 small text-muted">
+                                    Similarity: ${(product['Similarity Score'] * 100).toFixed(1)}%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+});
+</script>
+{% endblock %}

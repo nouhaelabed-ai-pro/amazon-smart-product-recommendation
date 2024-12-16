@@ -1,0 +1,217 @@
+/* Amazon Theme Colors */
+:root {
+    --amazon-orange: #FF9900;
+    --amazon-dark-blue: #232F3E;
+    --amazon-light-blue: #37475A;
+    --amazon-black: #131921;
+    --amazon-white: #FFFFFF;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+.navbar {
+    background-color: var(--amazon-black) !important;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    color: var(--amazon-white) !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: var(--amazon-white) !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover {
+    color: var(--amazon-orange) !important;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--amazon-light-blue);
+    color: var(--amazon-white);
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.hero h1 {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+/* Search Container */
+.search-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input {
+    border: 2px solid var(--amazon-orange);
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.search-container input:focus {
+    box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.25);
+    border-color: var(--amazon-orange);
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.search-result-item {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.search-result-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Product Cards */
+.product-card {
+    border: 1px solid #ddd;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-card .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.product-details {
+    margin-top: 1rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--amazon-orange);
+}
+
+.rating {
+    color: var(--amazon-orange);
+    margin-top: 0.5rem;
+}
+
+/* Feature Cards */
+.feature-card {
+    text-align: center;
+    padding: 2rem;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.feature-card i {
+    color: var(--amazon-orange);
+    margin-bottom: 1rem;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--amazon-orange) !important;
+    border-color: var(--amazon-orange) !important;
+    color: var(--amazon-black) !important;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #e88a00 !important;
+    border-color: #e88a00 !important;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--amazon-dark-blue);
+    color: var(--amazon-white);
+    padding: 3rem 0;
+    margin-top: 3rem;
+}
+
+.footer h5 {
+    color: var(--amazon-white);
+    margin-bottom: 1.5rem;
+}
+
+.footer a {
+    color: var(--amazon-white);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: var(--amazon-orange);
+}
+
+/* Section Spacing */
+section {
+    margin-bottom: 4rem;
+}
+
+/* Loading States */
+.loading {
+    text-align: center;
+    padding: 2rem;
+}
+
+.loading i {
+    color: var(--amazon-orange);
+}
+
+/* Modal */
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: var(--amazon-light-blue);
+    color: var(--amazon-white);
+}
+
+.modal-title {
+    color: var(--amazon-white);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero {
+        padding: 2rem 0;
+    }
+    
+    .search-container {
+        padding: 1rem;
+    }
+    
+    .product-card {
+        margin-bottom: 1rem;
+    }
+}
