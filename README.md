@@ -1,127 +1,125 @@
-# SmartProductRecommender
+# Amazon Smart Product Recommendation System
 
-A sophisticated product recommendation system built with Python and Flask, leveraging TF-IDF and cosine similarity for intelligent product suggestions.
+A sophisticated product recommendation system built using Flask and machine learning techniques, designed to provide personalized product suggestions based on content similarity.
 
-## 🌟 Features
+## Features
 
-- **Smart Search Engine**: Dynamic search functionality using TF-IDF vectorization
-- **Intelligent Recommendations**: Product recommendations based on content similarity
-- **Modern UI/UX**: Responsive design with intuitive user interface
-- **Real-time Updates**: Instant search results and recommendations
-- **Performance Optimized**: Efficient search algorithms and caching mechanisms
+- **Smart Search**: Advanced search functionality using TF-IDF vectorization
+- **Content-Based Recommendations**: Utilizes product descriptions and features to find similar items
+- **Real-time Processing**: Fast recommendation generation with response times under 100ms
+- **Modern UI**: Clean, responsive interface with Amazon-inspired design
+- **Interactive Results**: Dynamic loading of recommendations with similarity scores
 
-## 🚀 Technologies Used
+## Technology Stack
 
 - **Backend**: Python, Flask
+- **Machine Learning**: scikit-learn, NLTK, Pandas
 - **Frontend**: HTML5, CSS3, JavaScript
-- **Machine Learning**: scikit-learn (TF-IDF, Cosine Similarity)
-- **Natural Language Processing**: NLTK
-- **Data Processing**: Pandas, NumPy
 - **UI Framework**: Bootstrap 5
-- **Icons**: Font Awesome
+- **Data Processing**: NumPy, TF-IDF Vectorization
 
-## 📋 Prerequisites
+## Screenshots
 
-- Python 3.12.6
-- pip package manager
-- Virtual environment (recommended)
 
-## 📊 About Dataset
+### Recommendations Page
+![Recommendations](screenshots/recommendations.png)
+*Product recommendations with detailed information and similarity metrics*
 
-This dataset is having the data of 1K+ Amazon Product's Ratings and Reviews as per their details listed on the official website of Amazon
 
-### Features
 
-- **product_id** - Product ID
-- **product_name** - Name of the Product
-- **category** - Category of the Product
-- **discounted_price** - Discounted Price of the Product
-- **actual_price** - Actual Price of the Product
-- **discount_percentage** - Percentage of Discount for the Product
-- **rating** - Rating of the Product
-- **rating_count** - Number of people who voted for the Amazon rating
-- **about_product** - Description about the Product
-- **user_id** - ID of the user who wrote review for the Product
-- **user_name** - Name of the user who wrote review for the Product
-- **review_id** - ID of the user review
-- **review_title** - Short review
-- **review_content** - Long review
-- **img_link** - Image Link of the Product
-- **product_link** - Official Website Link of the Product
-
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/SmartProductRecommender.git
-   cd SmartProductRecommender
-   ```
+```bash
+git clone https://github.com/nouhaelabed-ai-pro/amazon-smart-product-recommendation.git
+cd amazon-smart-product-recommendation
+```
 
-2. Create and activate a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+3. Run the application:
+```bash
+python app.py
+```
 
-4. Ensure data file is present:
-   - Place the cleaned Amazon dataset in `data/cleaned_amazon_data.csv`
+4. Open your browser and navigate to:
+```
+http://127.0.0.1:5000
+```
 
-5. Run the application:
-   ```bash
-   python -m flask run
-   ```
+## How It Works
 
-## 🎯 Usage
+1. **Data Processing**
+   - Text cleaning and preprocessing using NLTK
+   - Feature extraction using TF-IDF vectorization
+   - Similarity calculation using cosine similarity
 
-1. **Search Products**:
-   - Enter keywords in the search bar
-   - Results are ranked by relevance and popularity
-   - Click on any product to see recommendations
+2. **Recommendation Generation**
+   - Content-based filtering using product descriptions
+   - Real-time similarity score calculation
+   - Top-N recommendations selection
 
-2. **View Recommendations**:
-   - Click "Get Similar Products" on any product card
-   - View detailed product information and similarity scores
-   - Browse through related products
+3. **Search Functionality**
+   - TF-IDF based search implementation
+   - Relevance scoring
+   - Fast retrieval using optimized data structures
 
-3. **Explore Popular Products**:
-   - Browse the homepage for top-rated products
-   - Sort by ratings and popularity
-   - Get instant recommendations
-
-## 🔧 Project Structure
+## Project Structure
 
 ```
-SmartProductRecommender/
+amazon-smart-product-recommendation/
 ├── app.py                 # Main Flask application
-├── data/                  # Dataset directory
-├── static/               
-│   ├── css/              # Stylesheets
-│   └── js/               # JavaScript files
-├── templates/            
-│   └── index.html        # Main HTML template
-├── requirements.txt      # Python dependencies
-└── README.md            # Project documentation
+├── requirements.txt       # Project dependencies
+├── static/               # Static files (CSS, JS)
+│   ├── css/
+│   └── js/
+├── templates/            # HTML templates
+├── data/                 # Dataset files
+└── notebooks/           # Jupyter notebooks for analysis
 ```
 
-## 🤝 Contributing
+## Key Features Explained
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. **Smart Search**
+   - Uses TF-IDF vectorization for intelligent search
+   - Considers product descriptions and categories
+   - Returns relevant results based on content similarity
 
-## 📝 License
+2. **Recommendation Engine**
+   - Content-based filtering using product features
+   - Similarity scoring using cosine similarity
+   - Fast recommendation generation with caching
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+3. **User Interface**
+   - Responsive design for all devices
+   - Real-time updates without page reload
+   - Interactive product cards with detailed information
 
-## 🙏 Acknowledgments
+## Performance Optimization
 
-- Dataset provided by Amazon
-- Inspired by modern e-commerce recommendation systems
-- Built with love for a better shopping experience
+- Implemented caching for frequent queries
+- Optimized TF-IDF matrix for faster similarity calculations
+- Efficient data preprocessing pipeline
+- Response time < 100ms for recommendations
+
+## Future Improvements
+
+- [ ] Add collaborative filtering
+- [ ] Implement user authentication
+- [ ] Add product images
+- [ ] Enhance search with filters
+- [ ] Add price-based recommendations
+
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Nouha EL ABED - [LinkedIn](https://www.linkedin.com/in/nouha-el-abed/)
+
+Project Link: [https://github.com/nouhaelabed-ai-pro/amazon-smart-product-recommendation](https://github.com/nouhaelabed-ai-pro/amazon-smart-product-recommendation)
